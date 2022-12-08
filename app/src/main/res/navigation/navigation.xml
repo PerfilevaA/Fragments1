@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/womenFragment"
+        android:name="com.example.fragments.WomenFragment"
+        android:label="fragment_women"
+        tools:layout="@layout/fragment_women" />
+    <fragment
+        android:id="@+id/catFragment"
+        android:name="com.example.fragments.CatFragment"
+        android:label="fragment_cat"
+        tools:layout="@layout/fragment_cat" />
+    <fragment
+        android:id="@+id/mouseFragment"
+        android:name="com.example.fragments.MouseFragment"
+        android:label="fragment_mouse"
+        tools:layout="@layout/fragment_mouse" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.fragments.mainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_womenFragment"
+            app:destination="@id/womenFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_mouseFragment"
+            app:destination="@id/mouseFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_catFragment"
+            app:destination="@id/catFragment" />
+    </fragment>
+</navigation>

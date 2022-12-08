@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:background="#FFF176"
+        android:text='Вы выбрали "КОШКА". Ваше самое большое преимущество — это ваш оптимизм. Для вас стакан с водой всегда наполовину полон, а там, где другие видят проблемы и трудности, вы видите новые возможности. Вместо того, чтобы размышлять и мечтать, вы просто действуете. Вам не нравится жалеть себя, вы просто закатываете рукава и берете все в свои руки. Вы всегда сосредотачиваетесь на решении проблемы и стараетесь избегать повторения подобной ситуации в будущем.  Вы не привыкли во всем винить себя или заниматься самобичеванием. Ваш позитивный настрой и здравый смысл дают вам возможность многого достичь.  Люди очень любят вас и рады находиться в вашей компании. Вы очень позитивный человек и отличный друг. Вы можете выслушать любого человека, но вы никого не судите.  Вы принимаете других такими, какие они есть. Вы прекрасно понимаете, что единственный человек, которого вы можете и должны изменить, — это вы сами.'
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
